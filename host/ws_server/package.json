@@ -1,0 +1,21 @@
+{
+  "name": "websocketserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.7.3",
+    "node-cron": "^3.0.3",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.0.2"
+  }
+}
